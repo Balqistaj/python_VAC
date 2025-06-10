@@ -1,4 +1,3 @@
-
 import pygame
 import sys
 import random
@@ -118,7 +117,6 @@ while running:
     # ball missed
     if ball.bottom>=HEIGHT:
 
-> Prashanth..⚡✨:
 lives-=1
         if lives == 0:
             game_over_function(score)
